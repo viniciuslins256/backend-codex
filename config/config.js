@@ -16,7 +16,7 @@ const config = () => {
                 jwt_expires_in: '7d'
             }
 
-        case 'prod':
+        case 'production':
             return {
                 bd_string: 'mongodb+srv://codex:S8204EaAfoQpA2lq@cluster0.cofvm.mongodb.net/main?retryWrites=true&w=majority',
                 jwt_pass: 'asdklas102318asldkan123ncm',
