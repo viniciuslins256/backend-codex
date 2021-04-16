@@ -35,6 +35,6 @@ app.use('/', indexRoute);
 app.use('/tasks', tasksRoute);
 app.use('/users', usersRoute);
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
     console.log("Your server is running!")
 })
